@@ -1,0 +1,67 @@
+May 13 17:54:04.136 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 13 17:54:04.137 HYPERVISOR: Started on IP = localhost, TCP port = 55740.
+May 13 17:54:04.617 HYPERVISOR: exec_cmd: hypervisor version 
+May 13 17:54:04.618 HYPERVISOR: exec_cmd: hypervisor working_dir F:\network\BGP A\full BGP\full BGP\project-files\dynamips 
+May 13 17:54:04.618 GENERAL: working_dir=F:\network\BGP A\full BGP\full BGP\project-files\dynamips
+May 13 17:54:04.618 HYPERVISOR: exec_cmd: hypervisor working_dir F:\network\BGP A\full BGP\full BGP\project-files\dynamips\84c75409-29d7-4548-a830-22922b1e2baf 
+May 13 17:54:04.619 GENERAL: working_dir=F:\network\BGP A\full BGP\full BGP\project-files\dynamips\84c75409-29d7-4548-a830-22922b1e2baf
+May 13 17:54:04.619 HYPERVISOR: exec_cmd: vm create R12 11 c7200 
+May 13 17:54:04.621 VM: VM R12 created.
+May 13 17:54:04.622 HYPERVISOR: exec_cmd: vm set_con_tcp_port R12 5010 
+May 13 17:54:04.622 HYPERVISOR: exec_cmd: c7200 get_mac_addr R12 
+May 13 17:54:04.622 HYPERVISOR: exec_cmd: vm get_status R12 
+May 13 17:54:04.622 HYPERVISOR: exec_cmd: vm slot_add_binding R12 0 0 C7200-IO-FE 
+May 13 17:54:04.623 HYPERVISOR: exec_cmd: vm set_disk0 R12 0 
+May 13 17:54:04.623 HYPERVISOR: exec_cmd: vm set_exec_area R12 64 
+May 13 17:54:04.624 HYPERVISOR: exec_cmd: vm get_status R12 
+May 13 17:54:04.625 HYPERVISOR: exec_cmd: vm set_idle_pc R12 0x63184bc8 
+May 13 17:54:04.625 HYPERVISOR: exec_cmd: vm set_ios R12 C:/Users/Mohamed Refaat/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+May 13 17:54:04.625 HYPERVISOR: exec_cmd: c7200 set_mac_addr R12 ca0b.3f38.0000 
+May 13 17:54:04.627 HYPERVISOR: exec_cmd: vm set_nvram R12 512 
+May 13 17:54:04.627 HYPERVISOR: exec_cmd: vm set_ram R12 512 
+May 13 17:54:04.628 HYPERVISOR: exec_cmd: vm get_status R12 
+May 13 17:54:04.628 HYPERVISOR: exec_cmd: vm slot_add_binding R12 1 0 PA-2FE-TX 
+May 13 17:54:04.628 HYPERVISOR: exec_cmd: vm get_status R12 
+May 13 17:54:04.629 HYPERVISOR: exec_cmd: vm slot_add_binding R12 2 0 PA-2FE-TX 
+May 13 17:54:08.544 HYPERVISOR: exec_cmd: nio create_udp udp-586eeb46-768e-4b6f-9bf9-eab347835ffa 10034 127.0.0.1 10035 
+May 13 17:54:08.796 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R12 0 0 udp-586eeb46-768e-4b6f-9bf9-eab347835ffa 
+May 13 17:54:08.797 HYPERVISOR: exec_cmd: vm get_status R12 
+May 13 17:54:10.106 HYPERVISOR: exec_cmd: nio create_udp udp-4118384d-92ce-4485-b870-3f4aa2489c0e 10070 127.0.0.1 10071 
+May 13 17:54:10.109 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R12 2 1 udp-4118384d-92ce-4485-b870-3f4aa2489c0e 
+May 13 17:54:10.109 HYPERVISOR: exec_cmd: vm get_status R12 
+May 13 17:54:44.412 HYPERVISOR: exec_cmd: vm set_ghost_status R12 2 
+May 13 17:54:44.412 HYPERVISOR: exec_cmd: vm set_ghost_file R12 F:\network\BGP A\full BGP\full BGP\project-files\dynamips\c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+May 13 17:54:44.412 HYPERVISOR: exec_cmd: vm get_status R12 
+May 13 17:54:44.412 HYPERVISOR: exec_cmd: vm set_config R12 configs\i11_startup-config.cfg configs\i11_private-config.cfg 
+May 13 17:54:44.415 HYPERVISOR: exec_cmd: vm start R12 
+May 13 17:55:21.299 HYPERVISOR: exec_cmd: vm extract_config R12 
+May 13 19:30:00.314 HYPERVISOR: exec_cmd: vm extract_config R12 
+May 13 20:25:12.889 HYPERVISOR: exec_cmd: vm set_ios R12 C:/Users/Mohamed Refaat/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+May 13 20:25:14.558 HYPERVISOR: exec_cmd: vm get_status R12 
+May 13 20:25:14.560 HYPERVISOR: exec_cmd: vm stop R12 
+May 13 20:25:14.830 VM: VM R12 shutdown.
+May 13 20:25:14.832 HYPERVISOR: exec_cmd: vm extract_config R12 
+May 13 20:25:14.838 HYPERVISOR: exec_cmd: vm get_status R12 
+May 13 20:25:14.841 HYPERVISOR: exec_cmd: vm extract_config R12 
+May 13 20:25:16.792 HYPERVISOR: exec_cmd: vm set_ghost_status R12 2 
+May 13 20:25:16.793 HYPERVISOR: exec_cmd: vm set_ghost_file R12 F:\network\BGP A\full BGP\full BGP\project-files\dynamips\c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+May 13 20:25:16.795 HYPERVISOR: exec_cmd: vm get_status R12 
+May 13 20:25:16.797 HYPERVISOR: exec_cmd: vm set_config R12 configs\i11_startup-config.cfg configs\i11_private-config.cfg 
+May 13 20:25:16.799 HYPERVISOR: exec_cmd: vm start R12 
+May 13 20:25:17.783 HYPERVISOR: exec_cmd: vm set_ghost_status R12 2 
+May 13 20:25:17.787 HYPERVISOR: exec_cmd: vm set_ghost_file R12 F:\network\BGP A\full BGP\full BGP\project-files\dynamips\c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+May 13 20:25:17.789 HYPERVISOR: exec_cmd: vm get_status R12 
+May 13 21:59:08.112 HYPERVISOR: exec_cmd: vm extract_config R12 
+May 13 22:08:38.340 HYPERVISOR: exec_cmd: vm extract_config R12 
+May 14 04:00:18.949 HYPERVISOR: exec_cmd: vm extract_config R12 
+May 14 04:01:03.473 HYPERVISOR: exec_cmd: vm get_status R12 
+May 14 04:01:03.473 HYPERVISOR: exec_cmd: vm stop R12 
+May 14 04:01:03.741 VM: VM R12 shutdown.
+May 14 04:01:03.741 HYPERVISOR: exec_cmd: vm extract_config R12 
+May 14 04:01:03.898 HYPERVISOR: exec_cmd: vm get_status R12 
+May 14 04:01:03.899 HYPERVISOR: exec_cmd: vm extract_config R12 
+May 14 04:01:03.901 HYPERVISOR: exec_cmd: vm delete R12 
+May 14 04:01:03.901 VM: VM R12 destroyed.
+May 14 04:01:03.902 HYPERVISOR: exec_cmd: hypervisor stop 
+May 14 04:01:04.208 HYPERVISOR: Stopped.
+May 14 04:01:04.208 GENERAL: reset done.
